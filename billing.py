@@ -14,7 +14,7 @@ class Billing:
         self.__medication_charges = float(medication_charges or 0.0)
         self.__insurance_applied = False
         self.__payment_status = Billing.PAYMENT_PENDING
-        # Associations for report context (not ownership)
+        
         self.__billed_to_patient = None
         self.__service_doctor = None
 
